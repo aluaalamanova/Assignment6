@@ -19,5 +19,7 @@ public class WeightedGraph<V> {
         adjacencyMap.get(source).add(destination);
         adjacencyMap.get(destination).add(source);
     }
-
+    public List<Vertex<V>> getNeighbors(Vertex<V> vertex) {
+        return adjacencyMap.get(vertex);
+    }
 }
