@@ -11,5 +11,7 @@ public class Vertex<V> {
         this.adjacentVertices = new HashMap<>();
         this.distance = Double.POSITIVE_INFINITY;
     }
-
+    public V getData() {
+        return data;
+    }
 }
