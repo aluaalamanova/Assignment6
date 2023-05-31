@@ -22,4 +22,7 @@ public class WeightedGraph<V> {
     public List<Vertex<V>> getNeighbors(Vertex<V> vertex) {
         return adjacencyMap.get(vertex);
     }
+    public Map<Vertex<V>, List<Vertex<V>>> getAdjacencyMap() {
+        return adjacencyMap;
+    }
 }
