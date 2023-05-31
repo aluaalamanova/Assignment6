@@ -9,6 +9,8 @@ public class WeightedGraph<V> {
     public WeightedGraph() {
         this.adjacencyMap = new HashMap<>();
     }
-
+    public void addVertex(Vertex<V> vertex) {
+        adjacencyMap.put(vertex, new ArrayList<>());
+    }
 
 }
