@@ -20,5 +20,7 @@ public class Vertex<V> {
     public Map<Vertex<V>, Double> getAdjacentVertices() {
         return adjacentVertices;
     }
-
+    public double getDistance() {
+        return distance;
+    }
 }
